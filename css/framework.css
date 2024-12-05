@@ -4,6 +4,10 @@
   align-items: center;
 }
 
+.col {
+  flex-direction: column;
+}
+
 .justify-between {
   justify-content: space-between;
 }
@@ -13,5 +17,53 @@
 }
 
 .py-5 {
-  padding: 5px 0;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
+
+.px-5 {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+/* Text */
+
+.text-menu {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.header-h1 {
+  font-size: 4rem;
+  line-height: 3rem;
+  color: var(--dark-green-color);
+  font-weight: 800;
+}
+
+.mb-075 {
+  margin-bottom: 0.75rem;
+}
+
+.mb-1 {
+  margin-bottom: 1rem;
+}
+
+.btn-1 {
+  color: var(--primary-color);
+  font-size: 1.25rem;
+  font-weight: 800;
+  border: 3px var(--primary-color) solid;
+  border-radius: 13px;
+  padding: 5px 4px;
+}
+
+/* Image styling */
+
+
+
+
+
