@@ -12,6 +12,10 @@
   justify-content: space-between;
 }
 
+.space-around {
+  justify-content: space-around;
+}
+
 .gap-20 {
   gap: 20px;
 }
@@ -19,6 +23,11 @@
 .py-5 {
   padding-top: 5px;
   padding-bottom: 5px;
+}
+
+.py-6 {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 
 .px-5 {
@@ -57,7 +66,6 @@
   font-size: 1.25rem;
   font-weight: 800;
   border: 3px var(--primary-color) solid;
-  border-radius: 13px;
   padding: 5px 4px;
 }
 
@@ -96,8 +104,42 @@
   left: -20px;
   right: -20px;
   height: 30px;
+  background-color: var(--shelf-floor-color);
   z-index: 0;
-  background: radial-gradient(var(--shelf-floor-color), var(--shelf-wall-color)); 
+}
+
+.card {
+  background-color: var(--card-color);
+  width: 550px;
+  box-shadow: 0 0px 20px rgba(0, 0, 0, 0.3);
+  border: solid #fff 1rem;       
+}
+
+.card2 {
+  background-color: var(--card-color);
+  border: 10px double var(--dark-green-color);
+  width: 300px;     
+}
+
+.card3 {
+  background-color: var(--card-color);
+  border: 10px double var(--dark-green-color);
+  max-width: 50%;     
+  margin: 0 auto;
+}
+
+.card2 h3{
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: #000;  
+}
+
+.card2 a{
+  color: #000;  
+}
+
+.card2 p{
+  font-size: 1rem;     
 }
 
 

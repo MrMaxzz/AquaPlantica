@@ -15,8 +15,11 @@
   --beach-color: #DDA15E;
 
   --wall-offset: -15px;
-  --shelf-wall-color: #251611;
-  --shelf-floor-color: #36190a;
+  --shelf-wall-color: #160905;
+  --shelf-floor-color: #1d1410;
+
+  --card-color: #ffffff;
+  --card-text-container-color: #D3D3D3;
 }
 
 img {
@@ -101,6 +104,11 @@ section:not(.navbar-section) {
 
 /* Header */
 
+.header-section {
+  border-top: double #fff 1rem;
+  border-bottom: double #fff 1rem;
+}
+
 .container .flex {
   max-width: 100%;
 }
@@ -124,9 +132,52 @@ section:not(.navbar-section) {
 
 /* Main */
 
+.main-section {
+  border-top: double #fff 1rem;
+  border-bottom: double #fff 1rem;
+}
+
 .main-header {
   font-size: 4rem;
   font-weight: 800;
   color: var(--dark-green-color);
   text-align: center;
+}
+
+.compare-container .flex-container {
+  min-height: calc(100vh);
+  align-items: start;
+}
+
+.compare-container .card:nth-of-type(2) {
+  align-self: self-end;
+}
+
+.card img {
+  object-fit: cover;
+}
+
+.card-text-container {
+  padding: 1rem;
+  text-align: center;
+}
+
+.card-text-container p{
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+
+.card h3 {
+  font-size: 2rem;
+  font-weight: 800;
+  color: var(--dark-green-color);
+}
+
+.card-text-container a {
+  text-align: left;
+}
+
+.about-section {
+  border-top: double #fff 1rem;
+  border-bottom: double #fff 1rem;
 }
